@@ -9,3 +9,8 @@ function gameStart(){
     let imageTag = document.getElementById("diceImage");
     imageTag.src = "dice.img/dice"+DICEROLL+".png"
 }
+
+export function getNumber(){
+    // return Math.floor((Math.random() * number) + 1);
+    return 1;
+}
